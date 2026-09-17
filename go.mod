@@ -13,10 +13,10 @@ require (
 	github.com/onsi/ginkgo/v2 v2.28.1
 	github.com/onsi/gomega v1.39.1
 	github.com/openshift-eng/openshift-tests-extension v0.0.0-20260408205138-ec501c2bf4a5
-	github.com/openshift/api v0.0.0-20260727141720-967cc4c36c9b
+	github.com/openshift/api v0.0.0-20260825094607-13a84dedc5a3
 	github.com/openshift/apiserver-library-go v0.0.0-20260715200723-42e5e402ca43
-	github.com/openshift/build-machinery-go v0.0.0-20251023084048-5d77c1a5e5af
-	github.com/openshift/client-go v0.0.0-20260723174158-ae2315de9d73
+	github.com/openshift/build-machinery-go v0.0.0-20260902143904-520f675c892b
+	github.com/openshift/client-go v0.0.0-20260806041845-b74fb348f1e7
 	github.com/openshift/library-go v0.0.0-20260727154952-0aacacf2673e
 	github.com/spf13/cobra v1.10.2
 	github.com/spf13/pflag v1.0.10
@@ -181,3 +181,6 @@ replace (
 	k8s.io/pod-security-admission => k8s.io/pod-security-admission v0.36.2
 	k8s.io/sample-apiserver => k8s.io/sample-apiserver v0.36.2
 )
+
+// branch: dynamic-http-transport
+replace github.com/openshift/library-go => github.com/tchap/library-go v0.0.0-20260917133826-d5d67fab4574
